@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+|     Day     |     Deliverable     |     Status     |
+|:-----------:|:-------------------:|:--------------:|
+|    Day 1    |  Project Worksheet  |   Incomplete   |
+|    Day 2   | Html/CSS/React Structure | Incomplete |
+|    Day 3    |     Express API     |   Incomplete   |
+|    Day 4    | MVP/Stress testing  |   Incomplete   |
+|    Day 5    | Wrap up loose ends  |   Incomplete   |
+|    Day 6    |       Present       |   Incomplete   |
 
-## Available Scripts
+# Project Description
 
-In the project directory, you can run:
+Portfolio:
+- Landing Page: Initial homepage, with first two projects visible while in tablet or desktop view, while only one will show for mobile
+- About Page: About Kyle, skills and contact info
 
-### `npm start`
+Demo project will be a fully functional version of the prototype tank API from 
+the first portfolio. Also listed, if I can find it, will be an essay on tank 
+gunnery to give a first person experience of an operator. Card links to individual
+tank pages with full unclassified details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Wireframes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Wireframes - https://www.figma.com/file/NujeIhdYcrO8rudkYVyT2F/Wireframe-for-React?node-id=0%3A1
 
-### `npm test`
+React Components - https://www.figma.com/file/ThcyFnbC5x1pqT8soBOBGt/React-Compnents?node-id=104%3A9
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Functionality / Tools used
 
-### `npm run build`
+MYP
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Priority |  Tool   |  Time Estimated   |   Actual Time   |
+|:--------:|:-------:|:-----------------:|:---------------:|
+|    H     |   Html  |      4 hours      |                 |
+|    H     | Layout CSS |    4 hours     |                 |
+|    H     |   Form  |      1 hour       |                 |
+|    H     |   Nav   |      1 hour       |                 |
+|    M     | Tank API |    12 hours      |                 |
+|    H     | Responsiveness | 4 hours    |                 |
+|    H     | Javascript / Jquery| 8 hours |                |
+|    M     | Express Backend |  12 hours  |                 |
+|    H     | Debugging |   12 hours      |                 |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Post MVP
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Priority |  Tool  |  Time Estimated   |   Actual Time    |
+|:--------:|:------:|:-----------------:|:----------------:|
+|    L     | Hover Description | 2 hours |                 |
+|    M     | Contact Express backend | 2 hours |           |
+|    M     | React-Bootstrap |      4 hours   |            |
+|    M     | Full function demo | 6 hours |                |
 
-### `npm run eject`
+# Additional Libraries
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Jquery
+- Bootstrap
+- React
+- Express
+- Mongoose
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Code samples 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- TBD
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Issues and Solutions
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- TBD
