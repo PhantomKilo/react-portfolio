@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
   return (
-    <Navbar className="nav-bar" bg="black" expand="md">
+    <Navbar className="nav-bar" bg="white" expand="md">
       <Container>
         <Navbar.Brand>
           <Link to="/react-portfolio/" className="nav-link" style={{textDecoration: "none"}}>
@@ -16,7 +16,7 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Link className="nav-link" to="/react-portfolio/projects">
-              <span className="nav-text">General Abrams Stuff</span>
+              <span className="nav-text">Projects</span>
             </Link>
             <Link className="nav-link" to="/react-portfolio/about">
               <span className="nav-text">About App</span>
