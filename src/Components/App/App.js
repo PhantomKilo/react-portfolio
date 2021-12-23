@@ -13,11 +13,11 @@ function App() {
       <NavBar />
       <Container>
         <Routes>
-          <Route exact path="/react-portfolio/" element={<HomePage />} />
-          <Route exact path="/react-portfolio/about" element={<AboutPage />} />
+          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/about" element={<AboutPage />} />
           <Route
             exact
-            path="/react-portfolio/projects"
+            path="/projects"
             element={<ProjectPage />}
           />
         </Routes>

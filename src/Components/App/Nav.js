@@ -8,17 +8,17 @@ const NavBar = () => {
     <Navbar className="nav-bar" bg="white" expand="md">
       <Container>
         <Navbar.Brand>
-          <Link to="/react-portfolio/" className="nav-link" style={{textDecoration: "none"}}>
+          <Link to="/" className="nav-link" style={{textDecoration: "none"}}>
             <span className="nav-text">Kyles Portfolio</span>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Link className="nav-link" to="/react-portfolio/projects">
+            <Link className="nav-link" to="/projects">
               <span className="nav-text">Projects</span>
             </Link>
-            <Link className="nav-link" to="/react-portfolio/about">
+            <Link className="nav-link" to="/about">
               <span className="nav-text">About App</span>
             </Link>
           </Nav>
