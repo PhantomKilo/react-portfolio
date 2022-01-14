@@ -1,15 +1,16 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card"
+import Card from "react-bootstrap/Card";
+import DailyDriver from "./Images/DailyDriver.png"
 
 const ProjectPage = () => {
   return (
-  <Container>
+    <Container>
       <Row>
-          <h1>Projects</h1>
+        <h1>Projects</h1>
       </Row>
-       <Row>
+      <Row>
         <Col sm={12} md={6}>
           <Card>
             <a href="https://phantomkilo.github.io/react-tank-api/#/tank/home">
@@ -43,8 +44,40 @@ const ProjectPage = () => {
           </Card>
         </Col>
       </Row>
-  </Container>
-  )
+      <Row>
+        <Col sm={12} md={6}>
+          <Card>
+            <a href="https://pages.git.generalassemb.ly/Undefined/Daily-Driver-Client/">
+              <Card.Img
+                variant="top"
+                className="img-fluid"
+                src={DailyDriver}
+              />
+              <Card.Title>Daily Driver Team Project</Card.Title>
+              <Card.Body>
+                <h3>***Code Clean-up in Progress***</h3>
+                <h3>Sample Team Project</h3>
+              </Card.Body>
+            </a>
+          </Card>
+        </Col>
+        <Col sm={12} md={6}>
+          <Card>
+           <Card.Title>Contributions to Team Project</Card.Title>
+           <Card.Body>
+             <ul>
+               <li>Built initial React App and Routes</li>
+               <li>Integrated Express back-end with React front-end</li>
+               <li></li>
+             </ul>
+           </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
+  );
 };
 
 export default ProjectPage;
+
+//https://pages.git.generalassemb.ly/Undefined/Daily-Driver-Client/
