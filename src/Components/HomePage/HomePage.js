@@ -8,18 +8,10 @@ const HomePage = () => {
   return (
     <Container>
       <Row>
-        <Col>
-          <h1>Kyle's Portfolio</h1>
-        </Col>
-        <Col>
-          <h2>Sample Projects</h2>
-        </Col>
-      </Row>
-     <Row>
        <Col>
         <Card>
-          <Card.Title></Card.Title>
-          <Card.Body></Card.Body>
+          <Card.Title>My Portfolio</Card.Title>
+          <Card.Body>Former soldier, now software developer. </Card.Body>
         </Card>
         <Card>
           <Card.Title></Card.Title>

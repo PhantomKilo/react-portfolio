@@ -90,7 +90,7 @@ const ProjectPage = () => {
               <ul>
                 <li>Built initial React App and Routes</li>
                 <li>Integrated Express back-end with React front-end</li>
-                <li></li>
+                <li>Worked with team to integrate different components through Github</li>
               </ul>
             </Card.Body>
           </Card>
