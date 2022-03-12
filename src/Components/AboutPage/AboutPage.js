@@ -9,7 +9,7 @@ const AboutPage = () => {
       <h1>About Kyle</h1>
       <Row>
         <Col sm={12} md={6}>
-          <Card>
+          <Card bg="black">
             <Card.Title>Who am I?</Card.Title>
             <Card.Body>
               <Card.Text>
@@ -31,7 +31,7 @@ const AboutPage = () => {
           </Card>
         </Col>
         <Col sm={12} md={6}>
-          <Card>
+          <Card bg="black">
             <Card.Title>Post Army</Card.Title>
             <Card.Body>
               <Card.Text>
@@ -49,7 +49,7 @@ const AboutPage = () => {
       </Row>
       <Row>
         <Col sm={12} md={6}>
-          <Card>
+          <Card bg="black">
             <Card.Title>Personal Interests</Card.Title>
             <Card.Body>
               <ul>
@@ -62,7 +62,7 @@ const AboutPage = () => {
           </Card>
         </Col>
         <Col sm={6} md={3}>
-          <Card>
+          <Card bg="black">
             <Card.Title>Hard Skills</Card.Title>
             <Card.Body>
               <Card.Text>
@@ -83,7 +83,7 @@ const AboutPage = () => {
           </Card>
         </Col>
         <Col sm={6} md={3}>
-          <Card>
+          <Card bg="black">
             <Card.Title>Soft Skills</Card.Title>
             <Card.Body>
               <Card.Text>

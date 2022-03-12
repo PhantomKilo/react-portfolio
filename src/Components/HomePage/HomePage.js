@@ -8,17 +8,19 @@ const HomePage = () => {
   return (
     <Container>
       <Row>
-       <Col>
-        <Card>
-          <Card.Title>My Portfolio</Card.Title>
-          <Card.Body>Former soldier, now software developer. </Card.Body>
-        </Card>
-        <Card>
-          <Card.Title></Card.Title>
-          <Card.Body></Card.Body>
-        </Card>
-       </Col>
-     </Row>
+        <Col sm={12} md={6}>
+          <Card bg="black">
+            <Card.Title>My Portfolio</Card.Title>
+            <Card.Body>Former soldier, now software developer. </Card.Body>
+          </Card>
+        </Col>
+        <Col sm={12} md={6}>
+          <Card bg="black">
+            <Card.Title></Card.Title>
+            <Card.Body></Card.Body>
+          </Card>
+        </Col>
+      </Row>
     </Container>
   );
 };

@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
   return (
-    <Navbar className="nav-bar" bg="white" expand="md">
+    <Navbar className="nav-bar" bg="black" expand="md">
       <Container>
         <Navbar.Brand>
           <Link to="/" className="nav-link" style={{textDecoration: "none"}}>
