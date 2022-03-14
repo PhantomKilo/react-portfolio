@@ -1,11 +1,21 @@
-/* .App {
-  text-align: center;
-  background-color: cadetblue;
-  color: white;
-} */
+html {
+  height: 100%;
+}
 
-* {
+.App {
   text-align: center;
-  background-color: black;
+  background: black url("./Background/31393.jpg") no-repeat center center fixed;
   color: white;
+  background-size: contain;
+  height: 100vh;
+  min-width: 100%;
+  overflow: auto;
+}
+
+span {
+  color: white
+}
+
+span:hover {
+  color: red;
 }

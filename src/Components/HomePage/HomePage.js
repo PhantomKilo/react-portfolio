@@ -9,13 +9,13 @@ const HomePage = () => {
     <Container>
       <Row>
         <Col sm={12} md={6}>
-          <Card bg="black">
+          <Card className="background">
             <Card.Title>My Portfolio</Card.Title>
             <Card.Body>Former soldier, now software developer. </Card.Body>
           </Card>
         </Col>
         <Col sm={12} md={6}>
-          <Card bg="black">
+          <Card className="background">
             <Card.Title></Card.Title>
             <Card.Body></Card.Body>
           </Card>

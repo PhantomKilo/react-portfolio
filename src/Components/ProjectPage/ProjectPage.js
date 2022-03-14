@@ -7,13 +7,13 @@ import "./ProjectPage.css";
 
 const ProjectPage = () => {
   return (
-    <Container>
+    <Container className="background">
       <Row>
         <h1>Projects</h1>
       </Row>
       <Row>
         <Col sm={12} md={6}>
-          <Card bg="black">
+          <Card className="background" >
             <a href="https://phantomkilo.github.io/react-tank-api/#/tank/home">
               <Card.Img
                 variant="top"
@@ -29,8 +29,8 @@ const ProjectPage = () => {
           </Card>
         </Col>
         <Col sm={12} md={6}>
-          <Card bg="black">
-            <Card.Title>Project Descrition</Card.Title>
+          <Card className="background"  >
+            <Card.Title>Project Description</Card.Title>
             <Card.Body>
               <ul>
                 <li>Built with React.js front-end, Express.js back-end</li>
@@ -43,7 +43,7 @@ const ProjectPage = () => {
       </Row>
       <Row>
         <Col sm={12} md={6}>
-          <Card bg="black">
+          <Card className="background">
             <a href="https://phantomkilo.github.io/react-project/">
               <Card.Img
                 variant="top"
@@ -59,7 +59,7 @@ const ProjectPage = () => {
           </Card>
         </Col>
         <Col sm={12} md={6}>
-          <Card bg="black">
+          <Card className="background" >
             <Card.Title>Project Description</Card.Title>
             <Card.Body>
               <ul>
@@ -73,7 +73,7 @@ const ProjectPage = () => {
       </Row>
       <Row>
         <Col sm={12} md={6}>
-          <Card bg="black">
+          <Card className="background"  >
             <a href="https://pages.git.generalassemb.ly/Undefined/Daily-Driver-Client/">
               <Card.Img variant="top" className="img-fluid" src={DailyDriver} />
               <Card.Title>Daily Driver Team Project</Card.Title>
@@ -85,7 +85,7 @@ const ProjectPage = () => {
           </Card>
         </Col>
         <Col sm={12} md={6}>
-          <Card bg="black">
+          <Card className="background" >
             <Card.Title>Contributions to Team Project</Card.Title>
             <Card.Body>
               <ul>

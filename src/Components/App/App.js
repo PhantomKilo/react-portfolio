@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import "./App.css";
+// import Space from "./Background/31393.jpg"
 
 import NavBar from "./Nav";
 import AboutPage from "../AboutPage/AboutPage";
@@ -9,7 +10,7 @@ import ProjectPage from "../ProjectPage/ProjectPage";
 
 function App() {
   return (
-    <div bg="dark">
+    <Container className="App">
       <NavBar />
       <Container>
         <Routes>
@@ -22,7 +23,7 @@ function App() {
           />
         </Routes>
       </Container>
-    </div>
+    </Container>
   );
 }
 

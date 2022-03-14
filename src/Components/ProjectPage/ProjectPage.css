@@ -11,3 +11,15 @@ li::after {
     content: "-";
     padding-left: 4px;
 }
+
+.background {
+    background: none
+}
+
+a {
+    color: white
+}
+
+a:hover {
+    color: red;
+}

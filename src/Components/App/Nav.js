@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import "./App.css";
 
 const NavBar = () => {
   return (
@@ -19,7 +20,7 @@ const NavBar = () => {
               <span className="nav-text">Projects</span>
             </Link>
             <Link className="nav-link" to="/about">
-              <span className="nav-text">About Kyle</span>
+              <span className="nav-text">About Me</span>
             </Link>
           </Nav>
         </Navbar.Collapse>
