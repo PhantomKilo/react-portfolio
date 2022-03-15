@@ -8,18 +8,18 @@ const HomePage = () => {
   return (
     <Container>
       <Row>
-        <Col sm={12} md={6}>
+        <Col>
           <Card className="background">
             <Card.Title>My Portfolio</Card.Title>
             <Card.Body>Former soldier, now software developer. </Card.Body>
           </Card>
         </Col>
-        <Col sm={12} md={6}>
+        {/* <Col sm={12} md={6}>
           <Card className="background">
             <Card.Title></Card.Title>
             <Card.Body></Card.Body>
           </Card>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );

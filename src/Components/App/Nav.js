@@ -10,7 +10,7 @@ const NavBar = () => {
       <Container>
         <Navbar.Brand>
           <Link to="/" className="nav-link" style={{textDecoration: "none"}}>
-            <span className="nav-text">Kyles Portfolio</span>
+            <span className="nav-text">Kyle's Portfolio</span>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
