@@ -2,8 +2,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import DevIcon from "devicon-react-svg";
 
-const AboutPage = () => {
+const AboutPage = () => {  
   return (
     <Container>
       <h1>About Kyle</h1>

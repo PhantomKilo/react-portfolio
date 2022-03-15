@@ -11,3 +11,15 @@ a {
 .background {
     background: none;
 }
+
+.card {
+    text-shadow: 2px 2px 2px black;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.subTitle {
+    font-size: 45px;
+}

@@ -9,9 +9,9 @@ const HomePage = () => {
     <Container>
       <Row>
         <Col>
-          <Card className="background">
-            <Card.Title>My Portfolio</Card.Title>
-            <Card.Body>Former soldier, now software developer. </Card.Body>
+          <Card className="background" >
+            <Card.Title className="title">My Portfolio</Card.Title>
+            <Card.Body className="subTitle">Former soldier, now software developer. </Card.Body>
           </Card>
         </Col>
         {/* <Col sm={12} md={6}>
