@@ -11,7 +11,7 @@ const HomePage = () => {
         <Col>
           <Card className="background" >
             <Card.Title className="title">My Portfolio</Card.Title>
-            <Card.Body className="subTitle">Former soldier, now software developer. </Card.Body>
+            <Card.Body className="subTitle">Former soldier, now software developer.</Card.Body>
           </Card>
         </Col>
         {/* <Col sm={12} md={6}>

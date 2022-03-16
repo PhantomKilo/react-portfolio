@@ -7,6 +7,7 @@ import NavBar from "./Nav";
 import AboutPage from "../AboutPage/AboutPage";
 import HomePage from "../HomePage/HomePage";
 import ProjectPage from "../ProjectPage/ProjectPage";
+import Contact from "../Contact/Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             path="/projects"
             element={<ProjectPage />}
           />
+          <Route exact path="contact" element={<Contact />} />
         </Routes>
       </Container>
     </Container>

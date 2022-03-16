@@ -1,7 +1,36 @@
 .card {
+    margin: 10px;
     text-shadow: 2px 2px 2px black;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto 0;
+}
+
+.about-list {
+    justify-content: space-around;
+}
+
+.about {
+    float: left;
+}
+
+.about::before {
+    content: "<";
+    padding-right: 0px;
+}
+
+.about::after {
+    content: ">";
+    padding-left: 0px;
 }
 
 .background {
     background: none;
+}
+
+.about-img {
+    height: 10%;
+    width: 10%;
 }

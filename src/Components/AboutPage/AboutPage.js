@@ -2,9 +2,10 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import DevIcon from "devicon-react-svg";
+// import DevIcon from "devicon-react-svg";
+import "./AboutPage.css";
 
-const AboutPage = () => {  
+const AboutPage = () => {
   return (
     <Container>
       <h1>About Kyle</h1>
@@ -42,7 +43,7 @@ const AboutPage = () => {
                 complex prblems and building projects, things I enjoyed. My Army
                 exerience allowed me to approach learning and problem solving
                 from a unique angle, having had to execute in real world
-                scenarios prior to even touching code. 
+                scenarios prior to even touching code.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -54,48 +55,143 @@ const AboutPage = () => {
             <Card.Title>Personal Interests</Card.Title>
             <Card.Body>
               <ul>
-                <li>Reading, primarily sci-fi and military sci-fi</li>
-                <li>History, most of it</li>
-                <li>Fitness, focused mostly on powerlifting, but also jogging and other general areas</li>
-                <li>Wargaming, Flames of War</li>
+                <li>
+                  Reading, mostly sci-fi, but I enjoy pretty much any genre
+                </li>
+                <li>Learning history, espcially military history during the 19th century</li>
+                <li>
+                  Fitness, focused on powerlifting right now, but also enjoy
+                  running and general movement
+                </li>
+                <li>Wargaming, Flames of War being th last one I focused on</li>
               </ul>
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={6} md={3}>
+        <Col sm={12} md={6}>
           <Card className="background">
             <Card.Title>Hard Skills</Card.Title>
-            <Card.Body>
-              <Card.Text>
-                <ul>
-                  <li>HTML5</li>
-                  <li>CSS</li>
-                  <li>Javascript</li>
-                  <li>React.js</li>
-                  <li>MongoDB</li>
-                  <li>Express.js</li>
-                  <li>Node.js</li>
-                  <li>Git</li>
-                  <li>Github</li>
-                  <li>.Net Core</li>
-                </ul>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col sm={6} md={3}>
-          <Card className="background">
-            <Card.Title>Soft Skills</Card.Title>
-            <Card.Body>
-              <Card.Text>
-                <ul>
-                  <li>Ability to work as part of a team</li>
-                  <li>Able to solve complex problems</li>
-                  <li>Communication</li>
-                  <li>Can function in high stress environment</li>
-                </ul>
-              </Card.Text>
-            </Card.Body>
+            <Row>
+              <Col sm={12} md={6}>
+                <Card className="background">
+                  <Card.Body>
+                    <Card.Text>
+                      <ul className="about-list">
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+                            alt="HTML5"
+                            className="about-img"
+                          />
+                          <spacer type="horizontal" width="20">
+                            {" "}
+                          </spacer>
+                          HTML5
+                        </li>
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+                            alt="CSS3"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>CSS3
+                        </li>
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+                            alt="Javascript"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>Javascript
+                        </li>
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                            alt="React.js"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>React.js
+                        </li>
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+                            alt="Bootstrap"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>Bootstrap
+                        </li>
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
+                            alt="MongoDB"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>MongoDB
+                        </li>
+                      </ul>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm={12} md={6}>
+                <Card className="background">
+                  <Card.Body>
+                    <Card.Text>
+                      <ul className="about-list">
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                            alt="Express.js"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>Express.js
+                        </li>
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                            alt="Node.js"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>Node.js
+                        </li>
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                            alt="Git"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>Git
+                        </li>
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                            alt="Github"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>Github
+                        </li>
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"
+                            alt="C#"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>C#
+                        </li>
+                        <li className="about">
+                          <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt=".Net Core"
+                            className="about-img"
+                          />
+                          <spacer> </spacer>.Net Core
+                        </li>
+                      </ul>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
           </Card>
         </Col>
       </Row>

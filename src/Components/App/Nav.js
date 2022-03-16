@@ -22,6 +22,9 @@ const NavBar = () => {
             <Link className="nav-link" to="/about">
               <span className="nav-text">About Me</span>
             </Link>
+            <Link className="nav-link" to="/contact">
+              <span className="nav-text">Contact Me</span>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
