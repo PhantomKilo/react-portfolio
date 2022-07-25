@@ -1,25 +1,25 @@
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/row";
+import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import Me from "./Me.png";
 import "./HomePage.css";
 
 const HomePage = () => {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col md={6} sm={12}>
           <Card className="background" >
             <Card.Title className="title">My Portfolio</Card.Title>
             <Card.Body className="subTitle">Former soldier, now software developer.</Card.Body>
           </Card>
         </Col>
-        {/* <Col sm={12} md={6}>
-          <Card className="background">
-            <Card.Title></Card.Title>
-            <Card.Body></Card.Body>
+        <Col md={6} sm={12}>
+          <Card>
+            <Card.Img src={Me} />
           </Card>
-        </Col> */}
+        </Col>
       </Row>
     </Container>
   );
