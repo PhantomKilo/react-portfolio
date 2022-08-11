@@ -14,7 +14,7 @@ const ProjectPage = () => {
       <Row>
         <Col sm={12} md={6}>
           <Card className="background" border="info">
-            <a href="https://phantomkilo.github.io/react-tank-api/#/tank/home">
+            <a href="https://phantomkilo.github.io/react-tank-api/">
               <Card.Img
                 variant="top"
                 className="img-fluid"
